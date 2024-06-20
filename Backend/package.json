@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "nodemon index.js",
     "start": "nodemon index.js",
-    "build": "echo 'Installing frontend dependencies' && cd Frontend && npm install && echo 'Building frontend' && npm run build"
+    "build": "echo 'Installing frontend dependencies' && cd Frontend && npm install --include=dev && echo 'Building frontend' && npm run build"
   },
   "keywords": [
     "MERN"
